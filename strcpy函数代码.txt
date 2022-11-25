@@ -3,12 +3,14 @@ char* StrCpy(char* src)
 	int len=strlen(src);
 	char* s=NULL;
 	s=(char*)malloc(sizeof(len+1));
-	for(i=0;i<len;i++){
+	for(int i=0;i<len;i++){
 	s[i]=src[i];
 }
 s[len]='\0';
 return p;
 }
 /**
-本地编辑
+
+远程edit B21031625张东旭
 **/
+
